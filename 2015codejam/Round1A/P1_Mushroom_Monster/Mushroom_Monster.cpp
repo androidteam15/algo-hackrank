@@ -52,7 +52,7 @@ int solve2(vector<int> plate){
 	for(int i=1; i<plate.size(); i++){
 
 		if( plate.at(i) < plate.at(i-1)){
-			
+
 			int ate= ( plate.at(i-1) - plate.at(i) );
 			if( ate > max )
 				max = ate;
